@@ -1,0 +1,71 @@
+body{
+	background-color:#FFFFCC;
+	}
+
+
+h1 {
+	color: black;
+	}
+
+a {
+	display: block;
+	font-weight: blod;
+	
+	
+	width: 150px;
+	text-align:center;
+	padding: 4px;
+	text-decoration: none;
+	}
+
+a.contact:link {color:black;}
+a.contact:visited {color:black;}
+a.contact:hover {color:red;}
+a.contact:active {color:purple;}  /* selected link */ 
+
+
+a:link { color: grey; }  /* unvisited link */
+
+a:visited {	color:green;	}  /* visited link */
+	
+a:hover {	color: blue;	}  /* mouse over link */
+	
+a:active {	color: yellow;	}  /* selected link */
+
+ul {
+	list-style-type:square;
+	}
+	
+div#VIC,#NSW,#SA,#WA,#ACT,#NT,#QLD,#TAS {
+	border: 1px solid;
+	
+	width:200px;
+	}
+
+div#VIC {
+	border-color:#000000;
+	}
+	
+div#NSW {
+	border-color:#00F;
+	}
+div#SA {
+	border-color:#0F0;
+	}
+
+div#WA {
+	border-color:#30F;
+	}
+div#ACT {
+	border-color:#936;
+	}
+div#NT {
+	border-color:#999999;
+	}
+div#QLD {
+	border-color:#9966CC;
+	}
+
+div#TAS {
+	border-color:#FF3333;
+	}

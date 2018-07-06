@@ -1,0 +1,36 @@
+body{
+	background-color:#FFFFCC;
+	}
+
+
+h1 {
+	color: red;
+	}
+
+
+a {
+	display: block;
+	font-weight: blod;
+	
+	
+	width: 150px;
+	text-align:center;
+	padding: 4px;
+	text-decoration: none;
+	}
+
+a.home:link {color:black;}
+a.home:visited {color:black;}
+a.home:hover {color:red;}
+a.home:active {color:purple;}  /* selected link */ 
+
+a.link{background-color:#FFFFCC;
+}
+
+a:link { color: grey; }  /* unvisited link */
+
+a:visited {	color:green;	}  /* visited link */
+	
+a:hover {	color: blue;	}  /* mouse over link */
+	
+a:active {	color: yellow;	}  /* selected link */

@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color:#FFFFCC;
+	}
+
+
+h1 {
+	color: blue;
+	}
+
+
+a {
+	display: block;
+	font-weight: blod;
+	color: #FFFFFF;
+	width: 150px;
+	text-align:center;
+	padding: 4px;
+	text-decoration: none;
+	}
+
+div#info1, #info2, #info3 {
+	width: 300px;
+	}
+
+div#info1 {
+	background-color: #0F3;
+	}
+	
+div#info2 {
+	background-color:#C0C;
+	}
+	
+div#info3 {
+	background-color:#FF6;
+	}
+
+img {
+  	width:100%;  	
+  	height:100%;
+}
+a.people:link {color:black;}
+a.people:visited {color:black;}
+a.people:hover {color:red;}
+a.people:active {color:purple;}  /* selected link */ 
+
+
+a:link { color: grey; }  /* unvisited link */
+
+a:visited {	color:green;	}  /* visited link */
+	
+a:hover {	color: blue;	}  /* mouse over link */
+	
+a:active {	color: yellow;	}  /* selected link */
